@@ -10,7 +10,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +94760663XXX",
+    use: ".pair +94726700XXX",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -20,7 +20,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example -* .pair +,94760663XXX");
+            return await reply("*Example -* .pair +,94726700XXX");
         }
 
         // Fetch pairing code
@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ PAIR COMPLETED*";
+        const doneMessage = "> *ᴏꜰꜰɪᴄɪᴀʟ Qᴜᴜᴇɴ x ᴍᴅ PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
