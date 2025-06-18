@@ -1,4 +1,4 @@
-const {
+උconst {
 default: makeWASocket,
 useMultiFileAuthState,
 DisconnectReason,
@@ -20,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX
 
-const ownerNumber = ['94702884908']
+const ownerNumber = ['94726700972']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
