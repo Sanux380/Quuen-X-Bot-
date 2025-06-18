@@ -1,7 +1,7 @@
 /*
 Dont Remove Credit;
-        CREDIT BY 𝐒𝐔𝐋𝐀-𝐌𝐃 OWNER SULAKSHA MADARA 
-        SUPPORT - https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07
+        CREDIT BY 𝐐𝐔𝐔𝐄𝐍 𝐗-𝐌𝐃 OWNER SANNU BBH
+        SUPPORT -
         
  Credit Remove කරන්න තරම් තිරිසනෙක් වෙන්න එපා ඕයි ☹️
 */
