@@ -45,7 +45,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363385281017920@newsletter',
-                    newsletterName: "ʙᴜɴɴʏ ᴍᴅ",
+                    newsletterName: "𝐐𝐔𝐔𝐄𝐁 ᴍᴅ",
                     serverMessageId: 190
                 }
             }
@@ -72,7 +72,7 @@ cmd({
                 if (userResponse === "1") {
                     await conn.sendMessage(chatID, {
                         video: { url: videoData.video },
-                        caption: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ"
+                        caption: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ Qᴜᴜᴇɴ ᴍᴅ"
                     }, { quoted: receivedMessage });
                 } else if (userResponse === "2") {
                     await conn.sendMessage(chatID, {
@@ -303,7 +303,7 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *ʙᴜɴɴʏ ᴍᴅ APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 *Qᴜᴜᴇɴ x ᴍᴅ APK Downloader* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
@@ -361,7 +361,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ"
+        caption: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ Qᴜᴜᴇɴ x ᴍᴅ"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
@@ -671,7 +671,7 @@ cmd({
         const videoUrl = media.find(item => item.type.includes('720p'))?.download_url || media[0].download_url;
 
         // Prepare the new message with the updated caption
-        const desc = `╭━━━〔 *ʙᴜɴɴʏ ᴍᴅ* 〕━━━┈⊷
+        const desc = `╭━━━〔 *Qᴜᴜᴇɴ x ᴍᴅ* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *PINS DOWNLOADER*
 ┃▸└───────────···๏
@@ -680,7 +680,7 @@ cmd({
 ┇๏ *Title* - ${title}
 ┇๏ *Media Type* - ${media[0].type}
 ╰━━❑━⪼
-> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ`;
+> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ Qᴜᴜᴇɴ x ᴍᴅ`;
 
         // Send the media (video or image) to the user
         if (videoUrl) {
