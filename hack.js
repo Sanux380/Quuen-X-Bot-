@@ -1,4 +1,4 @@
-const {cmd , commands} = require('../command');
+ᴇconst {cmd , commands} = require('../command');
 
 cmd({
     pattern: "hack",
@@ -40,7 +40,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '',
             ' *👨‍💻 YOUR DATA HACK SUCCESSFULLY 👩‍💻☣*',
             '',
-            '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐃𝐀𝐒𝐒𝐀-𝐌𝐃'
+            '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐐𝐔𝐔𝐄𝐍 𝐗-𝐌𝐃'
         ];
 
         for (const line of steps) {
