@@ -1,7 +1,7 @@
 /*
 Dont Remove Credit;
         CREDIT BY 𝐐𝐔𝐔𝐄𝐍 𝐗-𝐌𝐃 OWNER SANNU BBH
-        SUPPORT -
+        SUPPORT -https://whatsapp.com/channel/0029VbB2ZUM2975CiHdo5I3l
         
  Credit Remove කරන්න තරම් තිරිසනෙක් වෙන්න එපා ඕයි ☹️
 */
