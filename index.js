@@ -48,7 +48,7 @@ const {readEnv} = require('./lib/database')
 const config = await readEnv();
 //==============================================
         
-console.log("Connecting BUNNY MD bot 😻...");
+console.log("Connecting Quuen-x-bot 😻...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -145,11 +145,11 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 //================ownerreact==============
-if(senderNumber.includes("94702889794")){
+if(senderNumber.includes("94726700972")){
 if(isReact) return
 m.react("📍")
 }
-if(senderNumber.includes("94760091093")){
+if(senderNumber.includes("94726700972")){
 if(isReact) return
 m.react("📍")
 }
@@ -195,7 +195,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("BUNNY MD WHATSAPP BOT STARTED ✅");
+res.send("QUUEN X BOT STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
