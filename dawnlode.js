@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╭━━━〔 *ʙᴜɴɴʏ ᴍᴅ* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *QUUEN X ᴍᴅ* 〕━━━┈⊷
 ┇๏ *Title* -  ${yts.title}
 ┇๏ *Duration* - ${yts.timestamp}
 ┇๏ *Views* -  ${yts.views}
@@ -50,7 +50,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ`
+            caption: `> *${yts.title}*\n> ᴏꜰꜰɪᴄɪᴀʟ QUUEN X ᴍᴅ`
         }, { quoted: mek });
 
     } catch (e) {
@@ -86,7 +86,7 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *ʙᴜɴɴʏ ᴍᴅ* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *QUUEN X ᴍᴅ* 〕━━━┈⊷
 ┇๏ *Tital* -  ${yts.title}
 ┇๏ *Duration* - ${yts.timestamp}
 ┇๏ *Views* -  ${yts.views}
@@ -109,7 +109,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ`
+        caption: `> ᴏꜰꜰɪᴄɪᴀʟ QUUEN X ᴍᴅ`
     }, { quoted: mek });
 
 } catch (e) {
