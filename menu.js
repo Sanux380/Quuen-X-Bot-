@@ -2,11 +2,11 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 const os = require("os");
 const { runtime } = require('../lib/functions');
-const imageUrl = 'https://files.catbox.moe/5hd2zv.jpg';
+const imageUrl = 'https://pin.it/2WvTpshpW';
 
 cmd({
     pattern: "menu",
-    react: "🌸",
+    react: "🦋",
     alias: ["panel", "commands"],
     desc: "Get Bot Menu",
     category: "main",
@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
       
     *⏳ Uptime*: ${runtime(process.uptime())}
   
-    *👨‍💻 Owner:  Ɋㄩ乇乇几  乃ㄩ几几ㄚ  爪ᗪ*
+    *👨‍💻 Owner: 𝗤𝗨𝗨𝗘𝗡 𝗫 𝗠𝗗*
 ╰━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 
 ╭───────────────✦
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 │ ⑩ 🌐 *Other Menu*
 ╰───────────────✦
 
-> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 Qᴜᴇᴇɴ ʙᴜɴɴʏ 
+> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 Qᴜᴇᴇɴ x ᴍᴅ  
 `;
 
         let sentMsg;
