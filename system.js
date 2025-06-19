@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let status = `╭━━〔 *ʙᴜɴɴʏ ᴍᴅ* 〕━━┈⊷
+let status = `╭━━〔 *Qᴜᴜᴇɴ x ᴍᴅ* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*: ${runtime(process.uptime())}
 ┃◈┃• *📟 Ram*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
@@ -21,7 +21,7 @@ let status = `╭━━〔 *ʙᴜɴɴʏ ᴍᴅ* 〕━━┈⊷
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ ʙᴜɴɴʏ ᴍᴅ
+> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ᴏꜰꜰɪᴄɪᴀʟ Qᴜᴜᴇɴ x ᴍᴅ
 `
 return reply(`${status}`)
   
